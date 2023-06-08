@@ -1,0 +1,49 @@
+@import url(../root.css);
+
+.header__navbar { 
+    position: relative;
+    margin: auto 0;
+}
+
+.header__navbar-ul {
+    display: flex;
+    margin: auto;
+    gap: 100px;
+}
+
+.header__navbar-li {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header__navbar-link {
+    display: flex;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 1.3rem;
+
+    color: var(--white);
+
+    padding: 0;
+    gap: 5px;
+
+    width: 100%;
+}
+
+.header__navbar-link:hover::after {
+    position: absolute;
+    content: '';
+
+    height: 1px;
+    bottom: -5px;
+
+    width: 100%;
+
+    background: var(--white);
+
+    display: block;
+
+    transition: 0.5s ease-in-out;
+}

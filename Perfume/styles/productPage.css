@@ -1,0 +1,6 @@
+@import url(../styles/header/headerStyles.css);
+@import url(./header/headerNavbarStyles.css);
+@import url(./header/headerProfileStyles.css);
+@import url(../styles/forms/regAuthFormStyles.css);
+@import url(./product/product.css);
+@import url(./footer/footer.css);   

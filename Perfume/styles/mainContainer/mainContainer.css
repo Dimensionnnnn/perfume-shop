@@ -1,0 +1,14 @@
+@import url(../root.css);
+
+.main__container {
+    max-width: 1400px;
+    min-width: 1014px;
+
+    width: calc(100% - 10px);
+    margin: 0 auto;
+
+    min-height: calc(100vh - 200px);
+
+    display: flex;
+    flex-direction: column;
+}
