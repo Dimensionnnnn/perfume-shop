@@ -1,0 +1,113 @@
+.category__form {
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.category__field-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+
+    padding: 0 20px;
+}
+
+.category__name-for-ul {
+    padding: 0 10px 20px;
+    font-size: 1.2rem;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.category__field-ul {
+    list-style: none;
+    margin-bottom: 0;
+    max-height: 130px;
+    overflow: auto;
+
+    width: 90%;
+
+    border-bottom: 1px solid var(--color-gray);
+
+    margin-left: -10px;
+    margin-right: -10px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-bottom: 20px;
+}
+
+.category__field-chexbox {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    cursor: pointer;
+    display: inline-block;
+    flex-shrink: 0;
+    height: 18px;
+    margin: 0;
+    text-align: center;
+    width: 18px;
+}
+
+.category__field-title {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.category__price-container {
+    align-items: flex-start;
+    border-bottom: 1px solid;
+    border-color: #d9d9d9;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 8px 0;
+    position: relative;
+    width: 100%;
+}
+
+.category__field-input {
+    background-color: initial;
+    border: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: var(--black);
+    cursor: text;
+    flex-grow: 1;
+    font-size: 1.2rem;
+    line-height: 25px;
+    min-height: 12px;
+    overflow: hidden;
+    padding-left: 5px;
+    resize: none;
+}
+
+.category__field-button {
+    border: none;
+
+    background-color: var(--black);
+    color: var(--white);
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 1.3rem;
+    font-weight: 400;
+
+    padding: 15px 32px;
+
+    transition: 0.3s ease-in;
+}
+
+.category__field-button:hover {
+    background-color: var(--white);
+    color: var(--black);
+}

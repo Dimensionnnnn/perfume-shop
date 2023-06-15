@@ -1,0 +1,44 @@
+@import url(../root.css);
+
+.header {
+    width: 80%;
+    height: 100px;
+
+    margin: 0 auto;
+    padding: 0 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--black);
+}
+
+.header__title {
+    width: 310px;
+
+    font-weight: 600;
+    font-size: 1.3rem;
+
+    color: var(--white);
+}
+
+.header__profile {
+    display: flex;
+
+    align-items: center;
+    justify-content: right;
+
+    width: 310px;
+    gap: 10px;
+}
+
+@media (max-width: 480px) {
+    .header {
+        max-width: 460px;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        justify-content: center;
+    }
+}

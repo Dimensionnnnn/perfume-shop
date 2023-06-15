@@ -1,0 +1,25 @@
+@import url(../styles/header/headerStyles.css);
+@import url(./header/headerNavbarStyles.css);
+@import url(./header/headerProfileStyles.css);
+@import url(./catalog/category.css);
+@import url(./catalog/products.css);
+@import url(../styles/forms/regAuthFormStyles.css);
+@import url(./footer/footer.css);   
+
+.catalog__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    
+    min-height: calc(100vh - 200px);
+
+    padding: 20px;
+}
+
+@media (max-width: 480px) {
+    .catalog__container{
+    flex-direction: column;
+    align-items: center;
+    }
+}
